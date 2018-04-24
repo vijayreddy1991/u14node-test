@@ -1,0 +1,19 @@
+jobs:
+- name: u14nodall
+  type: runSh
+  steps:
+    - TASK:
+        runtime:
+          options:
+            imageName: "drydock/u14nodall"
+            imageTag: master
+        script:
+        - grunt --version
+        - mocha --versio
+        - vows --version
+        - casperjs --version
+        - bower --version
+        - phantomjs --version
+        - java -jar /usr/local/selenium/selenium-server-standalone-3.11.0.jar --version
+        - nodejs --version
+        - npm --version

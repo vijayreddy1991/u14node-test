@@ -14,6 +14,6 @@ jobs:
         - casperjs --version
         - bower --version
         - phantomjs --version
-        - java -jar /usr/local/selenium/selenium-server-standalone-3.11.0.jar --version
+        - java -jar /srv/local/selenium/selenium-server-standalone-3.11.0.jar --version
         - nodejs --version
         - npm --version

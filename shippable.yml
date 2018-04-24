@@ -9,7 +9,7 @@ jobs:
             imageTag: master
         script:
         - grunt --version
-        - mocha --versio
+        - mocha --version
         - vows --version
         - casperjs --version
         - bower --version

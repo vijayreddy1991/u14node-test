@@ -15,5 +15,6 @@ jobs:
         - bower --version
         - phantomjs --version
         - java -jar /srv/selenium-server-standalone-3.12.0.jar --version
-        - nodejs --version
+        - node --version
         - nvm list
+        - npm --version
